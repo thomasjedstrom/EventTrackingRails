@@ -3,10 +3,29 @@
 <h1><u>Event Tracking and Analytics</u></h1>
 
 <div id="description">
-	<p>Being able to track users' actions has become a pervasive strategy in todays global markets.  While most of us cringe at the thought of being followed ourselves, the reality is that it continues whether we are aware of it or not.  This app was designed specifically to employ current technologies to display all of what is available in a basic web application.</p>
+	<p>Being able to track users' actions has become a pervasive strategy in todays global markets.  This app was designed specifically to employ current technologies to display a sampling of what is available in a basic web application.</p>
 </div>
 
 <br>
+<div class="box" id="current_visitor">
+	<h2>Current Visitor's Information:</h2>
+	<span class="category">IP Address:</span><span><%= @cip %></span><br>
+    <span class="category">Referring Domain:</span><span><%= @creferringdomain %></span><br>
+    <span class="category">Seach Keyword:</span><span><%= @csearch %></span><br>
+	<span class="category">Browser:</span><span><%= @cbrowser %></span><br>
+	<span class="category">OS:</span><span><%= @cos %></span><br>
+	<span class="category">Device:</span><span><%= @cdevice %></span><br>
+	<span class="category">Screen Height:</span><span><%= @cscreenheight %></span><br>
+	<span class="category">Screen Width:</span><span><%= @cscreenwidth %></span><br>
+	<span class="category">Country:</span><span><%= @ccountry %></span><br>
+	<span class="category">Region:</span><span><%= @cregion %></span><br>
+	<span class="category">City:</span><span><%= @ccity %></span><br>
+	<span class="category">Zip:</span><span><%= @cpostal %></span><br>
+	<span class="category">Lattitude:</span><span><%= @clat %></span><br>
+	<span class="category">Longitude:</span><span><%= @clong %></span><br>
+	<span class="category">Visit Time:</span><span><%= @cvisittime %></span>
+
+</div>
 <hr>
 <br>
 

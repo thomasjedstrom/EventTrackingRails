@@ -18,6 +18,8 @@
 //= require Chart.bundle
 //= require chartkick
 //= require highcharts
+//= require moment
+//= require Chart
 
 
 

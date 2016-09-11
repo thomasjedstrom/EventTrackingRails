@@ -29,17 +29,27 @@ body{
 	box-sizing: border-box;
 	padding-top: 20px;
 }
-h1{
-}
 p{
 	text-align: left;
 	text-indent: 2em;
 }
+
 #description{
-	max-width: 30em;
+	max-width: 26em;
 	line-height: 1.6em;
 	font-size: 1.3em;
 	margin: auto;
+}
+#current_visitor{
+	width: 40%;
+	margin: auto;
+}
+.box span{
+	display: inline-block;
+	width: 35%;
+}
+.category{
+	text-align: right;
 }
 #boxcontainer{
 	display: flex;
