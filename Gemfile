@@ -30,6 +30,17 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'hirb'
+
+gem 'ahoy_matey'
+
+gem 'groupdate'
+gem "chartkick"
+gem 'rails_12factor'
+gem 'googlecharts'
+gem 'highcharts-rails'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

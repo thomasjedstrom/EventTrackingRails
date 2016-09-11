@@ -1,0 +1,39 @@
+
+
+<h1><u>Event Tracking and Analytics</u></h1>
+
+<div id="description">
+	<p>Being able to track users' actions has become a pervasive strategy in todays global markets.  While most of us cringe at the thought of being followed ourselves, the reality is that it continues whether we are aware of it or not.  This app was designed specifically to employ current technologies to display all of what is available in a basic web application.</p>
+</div>
+
+<br>
+<hr>
+<br>
+
+<div id="boxcontainer">
+	<div class="box">
+		<h2 class="title">Gross Site Activity</h2>
+		<%= line_chart @events %>
+	</div>
+
+	<div class="box">
+		<h2 class="title">Page Visits</h2>
+		<%= area_chart @index_visits %>
+	</div>
+
+	<div class="box">
+		<h2 class="title">Browser Usage</h2>
+		<%= pie_chart @browsers %>
+	</div>
+
+	<div class="box">
+		<h2 class="title">Locations</h2>
+		<%= javascript_include_tag "//www.google.com/jsapi" %>
+		<%= geo_chart @locations %>
+	</div>
+
+	<div class="box">
+		<h2 class="title">Devices Used</h2>
+		<%= column_chart @device %>
+	</div>
+</div>

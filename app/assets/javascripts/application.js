@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require ahoy
+//= require Chart.bundle
+//= require chartkick
+//= require highcharts
+
+
+
+ahoy.trackAll();
