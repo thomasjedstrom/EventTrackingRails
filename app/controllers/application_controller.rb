@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
 	protected
 
 	def ahoy_track
-	ahoy.track_visit
+		ahoy.track_visit
 	end
 
 end
