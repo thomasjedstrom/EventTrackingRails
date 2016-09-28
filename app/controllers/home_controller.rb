@@ -11,21 +11,21 @@ class HomeController < ApplicationController
 		@device = Visit.all.group(:device_type).count
 
 		# Current User Info
-		@cip = current_visit.ip
-		@creferringdomain = current_visit.referring_domain
-		@csearch = current_visit.search_keyword
-		@cbrowser = current_visit.browser
-		@cos = current_visit.os
-		@cdevice = current_visit.device_type
-		@cscreenheight = current_visit.screen_height
-		@cscreenwidth = current_visit.screen_width
-		@ccountry = current_visit.country
-		@cregion = current_visit.region
-		@ccity = current_visit.city
-		@cpostal = current_visit.postal_code
-		@clat = current_visit.latitude
-		@clong = current_visit.longitude
-		@cvisittime = current_visit.started_at
+		# @cip = current_visit.ip
+		# @creferringdomain = current_visit.referring_domain
+		# @csearch = current_visit.search_keyword
+		# @cbrowser = current_visit.browser
+		# @cos = current_visit.os
+		# @cdevice = current_visit.device_type
+		# @cscreenheight = current_visit.screen_height
+		# @cscreenwidth = current_visit.screen_width
+		# @ccountry = current_visit.country
+		# @cregion = current_visit.region
+		# @ccity = current_visit.city
+		# @cpostal = current_visit.postal_code
+		# @clat = current_visit.latitude
+		# @clong = current_visit.longitude
+		# @cvisittime = current_visit.started_at
 
 	end
 end
