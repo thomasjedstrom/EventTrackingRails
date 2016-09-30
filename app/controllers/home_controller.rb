@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
 
 	def index
-		ahoy.track "Viewed Index", title: "Posts page viewed"
+		# ahoy.track "Viewed Index", title: "Posts page viewed"
+		ahoy.track_visit
 
 		# General Tracking
 		@events = Ahoy::Event.group("time::date").select("time::date as date, count(1) as count").map{|k| [k.date, k.count]}
