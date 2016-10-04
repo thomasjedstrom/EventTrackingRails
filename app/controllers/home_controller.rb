@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 
 	def index
-		# ahoy.track "Viewed Index", title: "Posts page viewed"
+		ahoy.track "Viewed Index", title: "Posts page viewed"
 		ahoy.track_visit
 
 		# General Tracking
